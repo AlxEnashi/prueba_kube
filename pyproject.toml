@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "diego_api"
+name = "alex_api"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-packages = [{include = "diego_api"}]
+packages = [{include = "alex_api"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"

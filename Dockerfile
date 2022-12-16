@@ -11,7 +11,7 @@ RUN /root/.local/bin/poetry install --without dev --no-root --no-interaction
 RUN pip install uvicorn
 COPY . /code
 
-CMD ["uvicorn", "diego_api.app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "alex_api.app:app", "--host", "0.0.0.0", "--port", "8000"]
 
 # If running behind a proxy like Nginx or Traefik add --proxy-headers
 # CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80", "--proxy-headers"]
